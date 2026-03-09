@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: linear-gradiente(135deg, #e3f2fd, #f2f2f2);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: linear-gradiente(135deg, #0077cc, #005fa3);
+    color: white;
+    text-align: center;
+    padding: 25px 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+
+}
