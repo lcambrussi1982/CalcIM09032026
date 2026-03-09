@@ -11,7 +11,7 @@ body {
     display: flex;
     flex-direction: column;
 }
-
+/*CABECALHO*/
 .header {
     background-color: linear-gradiente(135deg, #0077cc, #005fa3);
     color: white;
