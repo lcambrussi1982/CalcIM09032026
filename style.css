@@ -5,18 +5,25 @@
 }
 
 body {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: linear-gradiente(135deg, #e3f2fd, #f2f2f2);
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradiente(135deg, #e3f2fd, #f2f2f2);
     min-height: 100vh;
     display: flex;
     flex-direction: column;
 }
-/*CABECALHO*/
+
+/*CABEÇALHO*/
 .header {
-    background-color: linear-gradiente(135deg, #0077cc, #005fa3);
+    background: linear-gradient(135deg, #0077cc, #005fa3);
     color: white;
     text-align: center;
     padding: 25px 20px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+}
 
+.logo-area{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
 }
